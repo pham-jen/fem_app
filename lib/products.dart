@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 import 'buying.dart';
 import 'app_bottom_bar.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Products());
 
-class MyApp extends StatelessWidget {
+class Products extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'FEM',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primaryColor: Color(0xffE4A0B7),
       ),
-      home: MyHomePage(),
+      home: ProductsPage(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class ProductsPage extends StatelessWidget {
   List<Mycard> mycard = [
     Mycard(Icons.medical_services, 'Tampons/Pads', true),
     Mycard(Icons.calendar_today, 'Birthcontrols', false),
