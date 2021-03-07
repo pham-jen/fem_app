@@ -1,3 +1,4 @@
+import 'package:fem_app/birthControlinfo.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -100,12 +101,12 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 250,
               child: TextButton(
                 onPressed: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => MyHomePage()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => Birthcontrol()));
                 },
                 child: Text(
-                  'Login',
-                  style: TextStyle(color: Colors.white, fontSize: 25),
+                  'move to birthcontrol pg',
+                  style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
             ),
