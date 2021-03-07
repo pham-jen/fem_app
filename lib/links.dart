@@ -51,7 +51,7 @@ class _LinksPageState extends State<LinksPage> {
           padding: const EdgeInsets.all(8),
           children: <Widget>[
             Container(
-              height: 50,
+              height: 100,
               width: 250,
               child: TextButton(
                 onPressed: () {
@@ -65,7 +65,7 @@ class _LinksPageState extends State<LinksPage> {
               ),
             ),
             Container(
-              height: 50,
+              height: 100,
               width: 250,
               child: TextButton(
                 onPressed: () {
@@ -79,7 +79,7 @@ class _LinksPageState extends State<LinksPage> {
               ),
             ),
             Container(
-              height: 50,
+              height: 100,
               width: 250,
               child: TextButton(
                 onPressed: () {
@@ -88,6 +88,20 @@ class _LinksPageState extends State<LinksPage> {
                 },
                 child: Text(
                   'Period Info',
+                  style: TextStyle(color: Colors.black, fontSize: 25),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 250,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => Period()));
+                },
+                child: Text(
+                  'Find a Clinic',
                   style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
