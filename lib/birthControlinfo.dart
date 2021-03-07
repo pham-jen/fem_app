@@ -4,7 +4,7 @@ void main() => runApp(Birthcontrol());
 
 /// This is the main application widget.
 class Birthcontrol extends StatelessWidget {
-  static const String _title = 'Flutter Code Sample';
+  static const String _title = 'FEM Birthcontrol info';
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class MyStatelessWidget extends StatelessWidget {
         ),
         DataColumn(
           label: Text(
-            'Percent Effectiveness',
+            '% ',
             style: TextStyle(fontStyle: FontStyle.italic),
           ),
         ),
