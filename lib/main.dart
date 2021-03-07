@@ -1,4 +1,4 @@
-import 'package:fem_app/birthControlinfo.dart';
+import 'package:athena3/links.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -101,11 +101,11 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 250,
               child: TextButton(
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (_) => Birthcontrol()));
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => Links()));
                 },
                 child: Text(
-                  'move to birthcontrol pg',
+                  'to links',
                   style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
