@@ -1,7 +1,7 @@
 # FEM app
 
 A Flutter project aimed towards providing women the resources they need for a high quality of life.
-Created by Libanose Teffera, Annie Change, Elizabeth Hoang, and Jennifer Pham for Athena Hacks 2021.
+Created by Libanose Teffera, Annie Chang, Elizabeth Hoang, and Jennifer Pham for Athena Hacks 2021.
 
 ## Getting Started
 
