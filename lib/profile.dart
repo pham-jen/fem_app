@@ -7,6 +7,7 @@ void main() => runApp(MaterialApp(
 class ProfileFemApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var color2 = Color(0xffF7D7D7);
     return Scaffold(
       body: Column(
         children: <Widget>[
@@ -58,7 +59,7 @@ class ProfileFemApp extends StatelessWidget {
                                     Text(
                                       "Address",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Color(0xffE4A0B7),
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -70,7 +71,7 @@ class ProfileFemApp extends StatelessWidget {
                                       "123 Oak St.",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.blueAccent,
+                                        color: Colors.pinkAccent,
                                       ),
                                     )
                                   ],
@@ -82,7 +83,7 @@ class ProfileFemApp extends StatelessWidget {
                                     Text(
                                       "Phone Number",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Color(0xffE4A0B7),
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -94,7 +95,7 @@ class ProfileFemApp extends StatelessWidget {
                                       "(456)-264-0984",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.blueAccent,
+                                        color: Colors.pinkAccent,
                                       ),
                                     )
                                   ],
@@ -106,7 +107,7 @@ class ProfileFemApp extends StatelessWidget {
                                     Text(
                                       "Email",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Color(0xffE4A0B7),
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -118,7 +119,7 @@ class ProfileFemApp extends StatelessWidget {
                                       "jsmith@gmail.com",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.blueAccent,
+                                        color: Colors.pinkAccent,
                                       ),
                                     )
                                   ],
@@ -143,7 +144,7 @@ class ProfileFemApp extends StatelessWidget {
                   Text(
                     " ",
                     style: TextStyle(
-                        color: Colors.pinkAccent,
+                        color: Color(0xffF7D7D7),
                         fontStyle: FontStyle.normal,
                         fontSize: 28.0),
                   ),
@@ -180,7 +181,7 @@ class ProfileFemApp extends StatelessWidget {
                     gradient: LinearGradient(
                         begin: Alignment.centerRight,
                         end: Alignment.centerLeft,
-                        colors: [Colors.redAccent, Colors.pinkAccent]),
+                        colors: [color2, Color(0xffF5DCE0)]),
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                   child: Container(
@@ -190,7 +191,7 @@ class ProfileFemApp extends StatelessWidget {
                     child: Text(
                       "Edit Profile",
                       style: TextStyle(
-                          color: Colors.white,
+                          color: Color(0xffE18AAA),
                           fontSize: 26.0,
                           fontWeight: FontWeight.w300),
                     ),
