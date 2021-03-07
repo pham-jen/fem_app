@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
-        primarySwatch: Colors.blue,
+        primaryColor: Color(0xffE4A0B7),
       ),
       home: MyHomePage(title: 'FEM Demo Home Page'),
     );
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       context, MaterialPageRoute(builder: (_) => Links()));
                 },
                 child: Text(
-                  'to links',
+                  'Login',
                   style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
