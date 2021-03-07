@@ -1,6 +1,8 @@
 import 'package:athena3/birthControlinfo.dart';
-import 'package:athena3/periodInfo.dart';
+import 'package:athena3/calendar.dart';
+import 'package:athena3/products.dart';
 import 'package:athena3/profile.dart';
+import 'package:athena3/map.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,8 +16,7 @@ class Links extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        primarySwatch: Colors.green,
+        primaryColor: Color(0xffE4A0B7),
       ),
       home: LinksPage(title: 'FEM Demo Home Page'),
     );
@@ -84,10 +85,10 @@ class _LinksPageState extends State<LinksPage> {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => Period()));
+                      context, MaterialPageRoute(builder: (_) => Map()));
                 },
                 child: Text(
-                  'Period Info',
+                  'Find a Clinic',
                   style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
@@ -98,10 +99,24 @@ class _LinksPageState extends State<LinksPage> {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => Period()));
+                      context, MaterialPageRoute(builder: (_) => Products()));
                 },
                 child: Text(
-                  'Find a Clinic',
+                  'Products Info',
+                  style: TextStyle(color: Colors.black, fontSize: 25),
+                ),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 250,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => MyApp()));
+                },
+                child: Text(
+                  'Cycle Tracker',
                   style: TextStyle(color: Colors.black, fontSize: 25),
                 ),
               ),
