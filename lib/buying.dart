@@ -22,7 +22,7 @@ class Buying extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE4A0B7),,
+      backgroundColor: Color(0xffE4A0B7),
       appBar: AppBar(
         title: Text('Buyings'),
       ),
